@@ -27,7 +27,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array = [5,4,3,2,1]
+  array = [5, 4, 3, 2, 1]
   array.collect{|i| i.to_s}
   puts array
 end

@@ -8,15 +8,16 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, number)
+  counter = 0
   message = ["Hello Moon.", "Hello Red Balloon"]
   number = [5, 10]
 
-  while number[0] do
+  while number[0] < counter do
     puts message[0]
-    message += 1
+    counter += 1
   end
-  while number[1] do
+  while number[1] < counter do
     puts message[1]
-    message += 1
+    counter += 1
   end
 end

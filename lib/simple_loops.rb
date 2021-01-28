@@ -18,3 +18,8 @@ def loop_message_n_times(message, number)
     puts message[1]
   end
 end
+
+def output_array(array)
+  array = {["Be yourself;", "everyone else is already taken", "- Oscar Wilde"], [5, 4, 3, 2, 1]}
+  puts array
+end

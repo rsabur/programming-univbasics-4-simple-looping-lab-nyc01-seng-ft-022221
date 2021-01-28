@@ -20,7 +20,6 @@ def loop_message_n_times(message, number)
 end
 
 def output_array(array)
-  array = {["Be yourself;", "everyone else is already taken", "- Oscar Wilde"], [5, 4, 3, 2, 1]}
+  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
   puts array
-end
 end

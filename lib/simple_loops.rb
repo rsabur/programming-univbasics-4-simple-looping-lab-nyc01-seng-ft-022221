@@ -27,6 +27,6 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.to_s = [5,4,3,2,1]
+  array = [5,4,3,2,1].to_s
   puts array
 end

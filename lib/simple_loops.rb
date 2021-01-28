@@ -13,8 +13,10 @@ def loop_message_n_times(message, number)
 
   while number[0] do
     puts message[0]
+    message += 1
   end
   while number[1] do
     puts message[1]
+    message += 1
   end
 end

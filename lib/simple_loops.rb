@@ -7,7 +7,7 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(message, number)
+def loop_message_n_times(message)
   message = ["Hello Moon.", "Hello Red Balloon"]
 
   while message[0] do
